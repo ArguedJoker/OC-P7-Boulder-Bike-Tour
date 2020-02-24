@@ -12,4 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require bulma
  */
+
+
+@import "bulma/sass/utilities/_all.sass"
