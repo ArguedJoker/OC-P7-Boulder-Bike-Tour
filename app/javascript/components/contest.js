@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 class Contest extends Component {
     render() {
-        <h1> This is the Contest Page </h1>
+        return(
+            <h1> This is the Contest Page </h1>
+        )
     }
 }
 

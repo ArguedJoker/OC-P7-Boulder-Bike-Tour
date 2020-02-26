@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 class Photo extends Component {
     render() {
-
-        <h1>This is the Photo Page</h1>
+        return(
+            <h1>This is the Photo Page</h1>
+        )
+        
     }
 }
 
