@@ -4,6 +4,24 @@
 
 * { 
     background: white;
-    padding: 0px;
-    margin: 10px;
+    margin: 0px;
 } 
+
+.logo {
+    width: 300px !important;
+    height: 100px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.jumbotron--picture {
+    width: 350px;
+    height: 600px;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}

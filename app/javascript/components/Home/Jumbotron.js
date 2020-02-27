@@ -5,10 +5,11 @@ const Jumbotron = () => {
       <React.Fragment>
 
         <section className="home-section--1">
+          <hr></hr>
           <div className="hero">
             <div className="hero-body">
-              <div className="container is-primary">
-                <div className="columns level">
+              <div className="container">
+                <div className="columns is-centered level">
                   <div className="column level-left">
                     <h1 className="title">Boulder Bike Tour</h1>
                     <p className="subtitle">
@@ -19,7 +20,7 @@ const Jumbotron = () => {
                     </a>
                   </div>
                   <div className="column level-right">
-                    <img
+                    <img className="jumbotron--picture"
                       src={require("../../../assets/images/angel-santos-FlzW93-6Xxw-unsplash.jpg")}
                     ></img>
                   </div>
