@@ -12,12 +12,12 @@ class Navbar extends Component {
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                         </a>
-                        <div className="navbar-brand">
+                        <div className="navbar-start">
                             <div className="navbar-item level-left logo">
                                 <img src={require("../../assets/images/logo-title/logo.png")}></img>
                             </div>
                         </div>
-                        <div className="navbar-menu">
+                        <div className="navbar-end">
                             <div className="column is-centered level-right">
                                 <div className="navbar-menu column-right" id="navMenu">
                                     <a href="../components/Home/Home.js" className="navbar-item">
@@ -35,8 +35,8 @@ class Navbar extends Component {
                                     <a href="../components/location.js" className="navbar-item">
                                         Location
                                     </a>
-                                    <a href="../components/contest.js" className="navbar-item">
-                                        Contest
+                                    <a href="../components/contact.js" className="navbar-item">
+                                        Contact
                                     </a>
                                 </div>
                             </div>

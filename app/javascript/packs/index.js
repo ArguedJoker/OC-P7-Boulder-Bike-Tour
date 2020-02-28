@@ -6,22 +6,21 @@ import About from '../components/about';
 import Riders from '../components/riders';
 import Photos from '../components/photo';
 import Location from '../components/location';
-import Contest from '../components/contest';
+import Contact from '../components/contact';
+
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <React.Fragment>
-      <div>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </div>
+
       <Navbar />
       <Home />
       <About />
       <Riders />
       <Photos />
       <Location />
-      <Contest />
+      <Contact />
+
     </React.Fragment>,
     
     document.body.appendChild(document.createElement('div')
