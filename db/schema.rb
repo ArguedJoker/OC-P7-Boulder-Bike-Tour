@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_06_091614) do
+ActiveRecord::Schema.define(version: 2020_03_06_090931) do
 
   create_table "locations", force: :cascade do |t|
     t.string "rider_first_name"
@@ -29,8 +29,6 @@ ActiveRecord::Schema.define(version: 2020_03_06_091614) do
     t.string "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "ref_num"
-    t.index ["ref_num"], name: "index_riders_on_ref_num"
   end
 
   create_table "slogans", force: :cascade do |t|

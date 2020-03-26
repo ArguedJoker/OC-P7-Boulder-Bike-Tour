@@ -5,7 +5,6 @@ const Jumbotron = () => {
       <React.Fragment>
 
         <section className="home-section--1">
-          <hr></hr>
           <div className="hero">
             <div className="hero-body">
               <div className="container">
@@ -21,7 +20,9 @@ const Jumbotron = () => {
                   </div>
                   <div className="column level-right">
                     <img className="jumbotron--picture"
-                      src={require("../../../assets/images/angel-santos-FlzW93-6Xxw-unsplash.jpg")}
+                      src = {
+                        require("../../../assets/images/about.jpg")
+                      }
                     ></img>
                   </div>
                 </div>
