@@ -35,7 +35,7 @@ class Contact extends Component {
                             <div className="select">
                                 <select>
                                     <option>Select dropdown</option>
-                                    <option>Feeback</option>
+                                    <option>Feedback</option>
                                     <option>Slogan</option>
                                 </select>
                             </div>
