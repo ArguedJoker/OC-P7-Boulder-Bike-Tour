@@ -13,7 +13,7 @@ const Jumbotron = () => {
                     <h1 className="title">Boulder Bike Tour</h1>
                     <p className="subtitle">
                       We need YOUR help! We need a slogan!
-                    </p>
+                     </p>
                     <a href="#" className="button is-danger">
                       I have an idea
                     </a>

@@ -2,32 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-* { 
+* {
     background: white;
     margin: 0px;
-} 
+}
+
+.hero {
+    background: orange;
+}
 
 .logo {
     width: 300px !important;
     height: 100px !important;
-    margin-left: 150px  !important;
+    margin: 0 20px;
     padding: 0 !important;
 }
 
 .jumbotron--picture {
-    width: 350px;
-    height: 600px;
+    width: 100%;
+    height: auto;
 }
 
 .navbar {
     padding: 0;
-    margin: 0;
+    margin: 0 20px;
     background: black;
     color: white;
 }
 
-.column-level-left {
-    .title {
-        text-align: center;
-    }
+img {
+    border-radius: 10px;
 }

@@ -8,7 +8,7 @@ class About extends Component {
                     <div className="columns is-centered level">
                         <div className="column">
                             <img className="about--picture"
-                            src={require("../../assets/images/about.jpg")}>
+                            src={require("../../assets/images/jumbo.jpg")}>
                             </img>
                         </div>
                         <div className="column">
