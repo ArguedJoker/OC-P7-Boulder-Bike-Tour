@@ -8,7 +8,7 @@ const Jumbotron = () => {
           <div className="hero">
             <div className="hero-body">
               <div className="container">
-                <div className="columns is-centered level">
+                <div className="columns is-centered level JumboContent">
                   <div className="column level-left">
                     <h1 className="title">Boulder Bike Tour</h1>
                     <p className="subtitle">
