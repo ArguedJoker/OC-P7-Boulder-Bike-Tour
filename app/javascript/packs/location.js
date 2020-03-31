@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-class CustomRiders extends {
+class  Location extends {
     render() {
         return(
-            < Riders />
+            < Location />
         )
     }   
 }
 
-export default CustomRiders
+export default Location

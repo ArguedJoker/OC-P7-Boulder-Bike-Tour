@@ -79,7 +79,9 @@ class Contact extends Component {
                             <button className="button is-link is-light">Cancel</button>
                         </div>
                     </div>
-                </div>    
+                </div>  
+
+                
             </section>
             
         )

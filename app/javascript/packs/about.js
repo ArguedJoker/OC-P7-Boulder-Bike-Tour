@@ -8,5 +8,6 @@ class About extends {
         )
 
     }
+}
 
 export default About
