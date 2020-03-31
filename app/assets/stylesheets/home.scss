@@ -7,6 +7,17 @@
     margin: 0px;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: white;
+    margin: 0 0 100px;
+    padding: 25px;
+}
+
 .hero {
     background: orange;
 }
@@ -23,13 +34,36 @@
     height: auto;
 }
 
+.about--picture {
+    height: 800px;
+    width: 500px;
+}
+
+.JumboContent {
+    margin-top: 200px;
+}
+
 .navbar {
     padding: 0;
     margin: 0 20px;
-    background: black;
+    background: white;
     color: white;
+    margin-bottom: 20px;
 }
 
-img {
-    border-radius: 10px;
+.footer {
+    background: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+   
 }
+

@@ -14,13 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <React.Fragment>
 
       < Navbar />
-      < About />
-      < Riders />
-      < Photos />
-      < Location />
-      < Contact />
+      
 
-      <Footer />
+      < Footer />
 
     </React.Fragment>,
 

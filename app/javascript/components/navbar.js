@@ -35,32 +35,31 @@ class Navbar extends Component {
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./about.js" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./About" className = "navbar-item" >
                                                         About
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./riders.js" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./Riders" className = "navbar-item" >
                                                         Riders
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./photo.js" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./Photo" className = "navbar-item" >
                                                         Gallery
                                                     </NavLink>
                                                 </li>
                                                 <li>
                                                     <NavLink exact activeClassName = "selected"
-                                                    to="./location.js" className = "navbar-item" >
+                                                    to="./Location" className = "navbar-item" >
                                                         Location
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./contact.js" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./Contact" className = "navbar-item" >
                                                         Contact Us
                                                     </NavLink>  
                                                 </li>
-                                           
                                         </div>
                                     </div>
                                 </div>
