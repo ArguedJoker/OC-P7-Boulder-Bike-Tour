@@ -30,33 +30,33 @@ class Navbar extends Component {
                                         <div className="navbar-menu column-right navigation" id="navMenu">
                                             
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./Home" className="navbar-item">
+                                                    <NavLink exact activeClassName="selected" to="./home" className="navbar-item">
                                                         Home
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./About" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./about" className = "navbar-item" >
                                                         About
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./Riders" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./riders" className = "navbar-item" >
                                                         Riders
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./Photo" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./photo" className = "navbar-item" >
                                                         Gallery
                                                     </NavLink>
                                                 </li>
                                                 <li>
                                                     <NavLink exact activeClassName = "selected"
-                                                    to="./Location" className = "navbar-item" >
+                                                    to="./location" className = "navbar-item" >
                                                         Location
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./Contact" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="./contact" className = "navbar-item" >
                                                         Contact Us
                                                     </NavLink>  
                                                 </li>
@@ -74,9 +74,9 @@ class Navbar extends Component {
                     <Route path="/home" component={ Home } />
                     <Route path="/about" component={ About } />
                     <Route path="/riders" component={ Riders } />
-                    <Route path="photo" component={ Photo } />
-                    <Route path="location" component={ Location } />
-                    <Route path="contact" component={ Contact } />
+                    <Route path="/photo" component={ Photo } />
+                    <Route path="/location" component={ Location } />
+                    <Route path="/contact" component={ Contact } />
                 </Switch>
 
             </BrowserRouter>

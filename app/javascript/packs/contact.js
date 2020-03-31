@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-class CustomRiders extends {
+class  Contact extends {
     render() {
         return(
-            < Riders />
+            < Contact />
         )
     }   
 }
 
-export default CustomRiders
+export default Contact
