@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/photos', to: 'photos#index', defaults: {format: 'json'}
   get '/riders', to: 'riders#index',  defaults: {format: 'json'}
   post '/contest', to: 'contest#create',  defaults: {format: 'json'}
-  root 'event#show', defaults: {format: 'json'}
+  #root 'event#show', defaults: {format: 'json'}
 
-  #root 'home#index'
+  root 'home#index'
 end

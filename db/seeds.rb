@@ -7,7 +7,29 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-riders.create!(
+@boulderBikeRaceEvent = Event.create!(
+  { :name => 'Boulder Bike tour',
+      :city => 'Boulder',
+      :state => 'Colorado',
+     :latitude => 40.016573,
+       :longitude =>  -105.286382,
+      :date => DateTime.new(2020, 04, 01,00, 00, 00 ), 
+      :category => 'Bike race',
+      :numberOfParticipants => '20',
+       :description => 'Annual Boulder, CO bike race'}
+       )
+
+@boulderBikeRaceEvent.flikr_photo_tags.create!([
+    {
+      "hashtag": "#bikerace",
+      },
+      {
+        "hashtag": "#BoulderBikeTour",
+      }
+    ])
+
+
+@boulderBikeRaceEvent.riders.create!(
 
 
     { 
@@ -16,8 +38,8 @@ riders.create!(
         "cityOfOrigin": "Hickory Hills",
         "stateOfOrigin": "IL",
         "description": "male",
-        "latitiude":,
-        "longitude":
+        "latitiude": 40.00,
+        "longitude": -105.35
     },
 
     {
@@ -26,8 +48,8 @@ riders.create!(
     "cityOfOrigin": "Huntington Beach",
     "stateOfOrigin": "CA",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 39.95,
+    "longitude": -105.24
     },
     
     {
@@ -36,8 +58,8 @@ riders.create!(
     "cityOfOrigin": "Hale",
     "stateOfOrigin": "MO",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 40.06,
+    "longitude": -105.26
     },
 
     {
@@ -46,8 +68,8 @@ riders.create!(
     "cityOfOrigin": "Fort Myers",
     "stateOfOrigin": "IL",
     "description": "female"
-    "latitude":,
-    "longitude":
+    "latitude": 40.03,
+    "longitude": -105.23
 
     },
 
@@ -57,8 +79,8 @@ riders.create!(
     "cityOfOrigin": "Fort Myers",
     "stateOfOrigin": "FL",
     "description": "male"
-    "latitude":,
-    "longitude":
+    "latitude": 40.04,
+    "longitude": -105.23
 
     },
 
@@ -68,8 +90,8 @@ riders.create!(
     "cityOfOrigin": "Tucson",
     "stateOfOrigin": "AZ",
     "description": "female"
-    "latitude":,
-    "longitude":
+    "latitude": 39.96,
+    "longitude": -105.22
 
     },
 
@@ -80,8 +102,8 @@ riders.create!(
     "cityOfOrigin": "Baltimore",
     "stateOfOrigin": "MD",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 39.98,
+    "longitude": -105.21
 
     },
 
@@ -92,8 +114,8 @@ riders.create!(
     "cityOfOrigin": "Minneapolis",
     "stateOfOrigin": "MN",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 40.00,
+    "longitude": -105.25
 
     },
 
@@ -104,8 +126,8 @@ riders.create!(
     "cityOfOrigin": "Scarborough",
     "stateOfOrigin": "ME",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 40.02,
+    "longitude": -105.30
 
     },
 
@@ -116,8 +138,8 @@ riders.create!(
     "cityOfOrigin": "Mystic",
     "stateOfOrigin": "CT",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 40.02,
+    "longitude": -105.30
 
     },
 
@@ -128,8 +150,8 @@ riders.create!(
     "cityOfOrigin": "Twin Lakes",
     "stateOfOrigin": "WI",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 40.01,
+    "longitude": -105.20
 
     },
 
@@ -140,8 +162,8 @@ riders.create!(
     "cityOfOrigin": "Norfolk",
     "stateOfOrigin": "VA",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 39.98,
+    "longitude": -105.24
 
     },
 
@@ -152,8 +174,8 @@ riders.create!(
     "cityOfOrigin": "Wayne",
     "stateOfOrigin": "NJ",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 39.99,
+    "longitude": -105.25
 
     },
 
@@ -165,8 +187,8 @@ riders.create!(
     "cityOfOrigin": "Brashear",
     "stateOfOrigin": "MO",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 40.01,
+    "longitude": -105.29
 
     },
 
@@ -177,8 +199,8 @@ riders.create!(
     "cityOfOrigin": "Marion",
     "stateOfOrigin": "VA",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 39.97,
+    "longitude": -105.27
 
     },
 
@@ -189,8 +211,8 @@ riders.create!(
     "cityOfOrigin": "Dallas",
     "stateOfOrigin": "TX",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 39.97,
+    "longitude": -105.27
 
     },
 
@@ -201,8 +223,8 @@ riders.create!(
     "cityOfOrigin": "Raleigh",
     "stateOfOrigin": "NC",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 40.00,
+    "longitude": -105.29
 
     },
 
@@ -213,8 +235,8 @@ riders.create!(
     "cityOfOrigin": "Newport",
     "stateOfOrigin": "PA",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 40.00,
+    "longitude": -105.29
 
     },
 
@@ -225,8 +247,8 @@ riders.create!(
     "cityOfOrigin": "Kahului",
     "stateOfOrigin": "HI",
     "description": "female",
-    "latitude":,
-    "longitude":
+    "latitude": 39.99,
+    "longitude": -105.30
 
     },
 
@@ -237,8 +259,8 @@ riders.create!(
     "cityOfOrigin": "Alexandria",
     "stateOfOrigin": "VA",
     "description": "male",
-    "latitude":,
-    "longitude":
+    "latitude": 40.01,
+    "longitude": -105.32
 
     },
 )
