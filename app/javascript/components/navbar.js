@@ -6,6 +6,7 @@ import Photo from './photo';
 import Riders from './riders';
 import About from './about';
 import Home from './Home/Home';
+import Events from './events';
 
 class Navbar extends Component {
     render() {
@@ -32,6 +33,11 @@ class Navbar extends Component {
                                                 <li>
                                                     <NavLink exact activeClassName="selected" to="./home" className="navbar-item">
                                                         Home
+                                                    </NavLink>
+                                                </li>
+                                                <li>
+                                                    <NavLink exact activeClassName="selected" to="./events" className="navbar-item">
+                                                        Events
                                                     </NavLink>
                                                 </li>
                                                 <li>
@@ -77,6 +83,7 @@ class Navbar extends Component {
                     <Route path="/photo" component={ Photo } />
                     <Route path="/location" component={ Location } />
                     <Route path="/contact" component={ Contact } />
+                    <Route path="/event" component={ Event } />
                 </Switch>
 
             </BrowserRouter>

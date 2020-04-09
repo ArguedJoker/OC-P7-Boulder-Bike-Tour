@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
 
 const Jumbotron = () => {
     return (
@@ -14,9 +15,9 @@ const Jumbotron = () => {
                     <p className="subtitle">
                       We need YOUR help! We need a slogan!
                      </p>
-                    <a href="#" className="button is-danger">
+                    <Link to="/events" className="button is-danger">
                       I have an idea
-                    </a>
+                    </Link>
                   </div>
                   <div className="column level-right">
                     <img className="jumbotron--picture"
@@ -30,6 +31,10 @@ const Jumbotron = () => {
             </div>
           </div>
         </section>
+
+        <Switch>
+          <Route path="/event" component={ Event } />
+        </Switch>
       </React.Fragment>
     );
 }
