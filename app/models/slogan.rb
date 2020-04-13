@@ -1,2 +1,0 @@
-class Slogan < ApplicationRecord
-end

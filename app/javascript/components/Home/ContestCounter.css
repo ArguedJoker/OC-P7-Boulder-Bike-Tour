@@ -1,0 +1,13 @@
+/* https://unsplash.com/photos/SJWPKMb9u-k */
+.bg-cool {
+  background-size: cover;
+}
+
+.bg-gr  {
+  background: white;
+  /*background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 6%, rgba(0,0,0,0) 100%);*/
+}
+
+body {
+  background-color: #cb9d59;
+}

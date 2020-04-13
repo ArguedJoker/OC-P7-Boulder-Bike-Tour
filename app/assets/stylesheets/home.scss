@@ -67,3 +67,44 @@ body {
    
 }
 
+.ContestCounter {
+    background-color: white;
+
+    /* https://unsplash.com/photos/SJWPKMb9u-k */
+    .bg-cool {
+        background-size: cover;
+    }
+
+    .bg-gr {
+        background-color: white;
+
+        .card-body {
+            align-items: center;
+            display: flex;
+            padding: 50px;
+            max-width: 400px;
+            max-height: 200px;
+
+            .display-1 {
+
+                font-size: 2rem;
+                margin-top: 100px;
+                margin-left: 10px;
+
+                .lead {
+
+                    font-size: 2rem;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

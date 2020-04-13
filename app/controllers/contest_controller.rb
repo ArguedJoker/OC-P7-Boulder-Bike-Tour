@@ -3,9 +3,9 @@ class ContestController < ApplicationController
 	def index
         # For later use to retrieve slogan_submission table through an API / debugging
         @slogans = Event.first.slogan_submissions
-    end
+       end
 
-    def new
+       def new
 		@slogan_submission = SloganSubmission.new
 	end
 
@@ -31,7 +31,7 @@ class ContestController < ApplicationController
     private
  	def slogan_submission_params
         # {\"slogan_submission\":{\"firstName\":\"myfirstname\", \"lastName\":\"myLASTNAME\",\"email\":\"MYEMAIL@EMAIL.COM\", \"slogan\":\"HELLO SLOGAN\"}}
-# curl -d {"firstName":"myfirstname", "lastName":"myLASTNAME","email":"MYEMAIL@EMAIL.COM", "slogan":"HELLO SLOGAN"} -H "Content-Type: application/json" -X POST http://localhost:3001/contest
+       # curl -d {"firstName":"myfirstname", "lastName":"myLASTNAME","email":"MYEMAIL@EMAIL.COM", "slogan":"HELLO SLOGAN"} -H "Content-Type: application/json" -X POST http://localhost:3001/contest
         # params[:slogan_submission]
  		params.require(:slogan_submission).permit(:firstName, :lastName, :email, :slogan)
  	end
