@@ -5,4 +5,6 @@ class PagesController < ApplicationController
     end
     def Location
     end
+    def Events
+    end
 end

@@ -15,7 +15,7 @@ class Navbar extends Component {
                     <div className="has-navbar-fixed-top">
                         <div className="container is-fluid">
                             <div className="level">
-                                <nav className="navbar is-fixed-top">
+                                <nav className="navbar is-fixed-top message-header">
                                 <a role="button" className="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
                                     <span aria-hidden="true"></span>
                                     <span aria-hidden="true"></span>
@@ -31,38 +31,38 @@ class Navbar extends Component {
                                         <div className="navbar-menu column-right navigation" id="navMenu">
                                             
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./home" className="navbar-item">
+                                                    <NavLink exact activeClassName="selected" to="/home" className="navbar-item">
                                                         Home
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./events" className="navbar-item">
+                                                    <NavLink exact activeClassName="selected" to="/events" className="navbar-item">
                                                         Events
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./about" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="/about" className = "navbar-item" >
                                                         About
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./riders" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="/riders" className = "navbar-item" >
                                                         Riders
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./photo" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="/photo" className = "navbar-item" >
                                                         Gallery
                                                     </NavLink>
                                                 </li>
                                                 <li>
                                                     <NavLink exact activeClassName = "selected"
-                                                    to="./location" className = "navbar-item" >
+                                                    to="/location" className = "navbar-item" >
                                                         Location
                                                     </NavLink>
                                                 </li>
                                                 <li>
-                                                    <NavLink exact activeClassName="selected" to="./contact" className = "navbar-item" >
+                                                    <NavLink exact activeClassName="selected" to="/contact" className = "navbar-item" >
                                                         Contact Us
                                                     </NavLink>  
                                                 </li>
@@ -83,7 +83,7 @@ class Navbar extends Component {
                     <Route path="/photo" component={ Photo } />
                     <Route path="/location" component={ Location } />
                     <Route path="/contact" component={ Contact } />
-                    <Route path="/event" component={ Event } />
+                    <Route path="/events" component={ Events } />
                 </Switch>
 
             </BrowserRouter>

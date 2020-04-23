@@ -18,8 +18,19 @@ body {
     padding: 25px;
 }
 
-.hero {
-    background: orange;
+.home-section--1 {
+    margin: -100;
+    padding: 0;
+}
+
+.hero-body {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
 }
 
 .logo {
@@ -40,7 +51,8 @@ body {
 }
 
 .JumboContent {
-    margin-top: 200px;
+    margin-top: 100px;
+    background: white;
 }
 
 .navbar {
@@ -48,7 +60,7 @@ body {
     margin: 0 20px;
     background: white;
     color: white;
-    margin-bottom: 20px;
+    
 }
 
 .footer {
@@ -67,6 +79,8 @@ body {
    
 }
 
+
+
 .ContestCounter {
     background-color: white;
 
@@ -80,22 +94,42 @@ body {
 
         .card-body {
             align-items: center;
+            background: white;
+            border: none;
             display: flex;
-            padding: 50px;
-            max-width: 400px;
-            max-height: 200px;
+            
+            width: 100%;
+            height: auto;
+
+            .ContestCounter {
+                margin-right: 20px;
+                padding: 30px;
+            }
+
+            .timer {
+                margin-right: 5px;
+                padding: 30px;
+            }
+
 
             .display-1 {
 
-                font-size: 2rem;
-                margin-top: 100px;
-                margin-left: 10px;
+                font-size: 1.2rem;
+                font-weight: 700;
+                margin-top: 75px;
+
 
                 .lead {
 
-                    font-size: 2rem;
-                    margin-left: 10px;
+                    font-size: 1.2rem;
+
                 }
+            }
+
+            .map-button {
+                margin-left: 100px;
+                padding: 0;
+
             }
         }
     }
