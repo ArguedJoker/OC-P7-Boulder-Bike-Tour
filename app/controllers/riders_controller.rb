@@ -1,4 +1,5 @@
 class RidersController < ApplicationController
+ api-fe/be
     def index
         @riders = Rider.all
         # render json: @riders
@@ -7,4 +8,5 @@ class RidersController < ApplicationController
     # def show
     #     render :index
     # end
+ master
 end

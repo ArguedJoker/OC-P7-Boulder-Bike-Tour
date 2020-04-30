@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Location extends Component {
     render() {
         return(
+
             <section className="hero location-section--1">
                 <div className="hero-body">
                     <div className="container">
@@ -111,6 +112,12 @@ class Location extends Component {
                             </div>
                         </div>
                     </div>
+
+            <section className="location-section--1">
+                <hr></hr>
+                <div className="container">
+                    <h1 className="title">This is the Location Page</h1>
+
                 </div>
             </section>
             

@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   #root 'event#show', defaults: {format: 'json'}
 
   root 'home#index'
+  get '/components/about'
 end
