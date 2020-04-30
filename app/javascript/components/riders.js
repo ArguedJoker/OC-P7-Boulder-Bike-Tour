@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 class Riders extends Component {
+ api-fe/be
+    
+
     render() {
         return(
             <section className="rider-section--1">
@@ -9,8 +12,9 @@ class Riders extends Component {
                 </div>
             </section>
         )
+ master
         
     }
-}
+
 
 export default Riders; 

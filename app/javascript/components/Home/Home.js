@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { Jumbotron } from './Jumbotron';
 import About from '../about';
 import Navbar from '../navbar';

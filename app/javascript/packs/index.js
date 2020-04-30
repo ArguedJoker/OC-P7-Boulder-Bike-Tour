@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from '../components/Home/Home';
+import Navbar from '../components/navbar';
+import About from '../components/about';
+import Riders from '../components/riders';
+import Photos from '../components/photo';
+import Location from '../components/location';
+import Contact from '../components/contact';
+import Footer from '../components/footer';
+
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <div>
-      <Home />
-    </div>,
+    <React.Fragment>
+
+      < Navbar />
+      < Footer />
+
+    </React.Fragment>,
+
+    document.getElementById("content")
     
-    document.body.appendChild(document.createElement('div')
-  ))
+  )
 })

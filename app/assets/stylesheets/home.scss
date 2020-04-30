@@ -7,8 +7,35 @@
     margin: 0px;
 }
 
+ api-fe/be
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: white;
+    margin: 0 0 50px;
+    padding: 25px;
+}
+
+.home-section--1 {
+    margin: -100;
+    padding: 0;
+}
+
+.hero-body {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+
 .hero {
     background: orange;
+ master
 }
 
 .logo {
@@ -23,6 +50,105 @@
     height: auto;
 }
 
+ api-fe/be
+.about--picture {
+    height: 800px;
+    width: 500px;
+}
+
+.JumboContent {
+    margin-top: 100px;
+    background: white;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0 20px;
+    background: white;
+    color: white;
+    
+}
+
+.footer {
+    background: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+   
+}
+
+
+
+.ContestCounter {
+    background-color: white;
+
+    /* https://unsplash.com/photos/SJWPKMb9u-k */
+    .bg-cool {
+        background-size: cover;
+    }
+
+    .bg-gr {
+        background-color: white;
+
+        .card-body {
+            align-items: center;
+            background: white;
+            border: none;
+            display: flex;
+            
+            width: 100%;
+            height: auto;
+
+            .ContestCounter {
+                margin-right: 20px;
+                padding: 30px;
+            }
+
+            .timer {
+                margin-right: 5px;
+                padding: 30px;
+            }
+
+
+            .display-1 {
+
+                font-size: 1.2rem;
+                font-weight: 700;
+                margin-top: 75px;
+
+
+                .lead {
+
+                    font-size: 1.2rem;
+
+                }
+            }
+
+            .map-button {
+                margin-left: 100px;
+                padding: 0;
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 .navbar {
     padding: 0;
     margin: 0 20px;
@@ -33,3 +159,4 @@
 img {
     border-radius: 10px;
 }
+ master
