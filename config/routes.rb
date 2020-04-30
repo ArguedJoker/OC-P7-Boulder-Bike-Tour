@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get '/location', to: 'home#index' 
   get '/contact', to: 'home#index' 
   get '/events', to: 'home#index'
+  get '/riders', to: 'home#index'
+  get 'photo', to: 'home#index'
 
   #get 'events', to: 'events#index', defaults: {format: 'json'}
   #get '/locations', to: 'location#index',  defaults: {format: 'json'}

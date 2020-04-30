@@ -65,7 +65,7 @@ render() {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label">Message</label>
+                  <label className="label">Slogan</label>
                   <div className="control">
                     <textarea className="textarea is-medium" maxLength="50" placeholder="Your Slogan goes here" value={this.state.value} onChange={this.handleChange}></textarea>
                   </div>

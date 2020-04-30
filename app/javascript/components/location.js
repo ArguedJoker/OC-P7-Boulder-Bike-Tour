@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class Location extends Component {
     render() {
         return(
-            <section className="location-section--1">
-                
-                <div className="container">
-                    <h1 className="title">This is the Location Page</h1>
-                    <p>This is where users can see the map of the race track and where riders are at the moment.</p>
-                </div>
-                <div className="container">
+            <section className="hero location-section--1">
+                <div className="hero-body">
+                    <div className="container">
+                        <h1 className="title">This is the Location Page</h1>
+                        <p>This is where users can see the map of the race track and where riders are at the moment.</p>
+                    </div>
+                    <div className="container">
                         <div className="content is-large">
                             <h1 className="title">Boulder Tour Gallery</h1>
                             <br/>
@@ -111,6 +111,7 @@ class Location extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
             </section>
             
         )
